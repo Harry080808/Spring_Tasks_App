@@ -1,9 +1,0 @@
-services:
-  db:
-    image: mysql:latest
-    ports:
-    - "3306:3306"
-    restart: always
-    environment:
-      MYSQLPASSWORD: root
-      MYSQLDATABASE: tasksdb
